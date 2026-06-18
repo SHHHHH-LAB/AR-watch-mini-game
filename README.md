@@ -4,4 +4,5 @@
 实现颜色自定义模块：通过 EventSystem 获取按钮名称，使用 ColorUtility.TryParseHtmlString 解析十六进制颜色码，动态修改表带材质颜色；并为材质创建独立实例（Instantiate），防止多手表共享材质互相污染。
 为三个详情弹窗分别设计 Animator Controller，统一通过 CloseButtonClicked 方法根据按钮名称（如 w1close）播放退场动画，提升代码复用性。
 集成 AR Foundation 实现平面检测与模型放置，适配 iOS/Android 设备。
+示范视频:AR.mp4
 
